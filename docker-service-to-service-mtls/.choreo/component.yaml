@@ -35,7 +35,7 @@ endpoints:
     # Allowed values: REST, GraphQL, GRPC, TCP, UDP.
     type: REST
     # +optional Network level visibilities of the endpoint.
-    # Accepted values: Project|Organization|Public(Default).
+    # Accepted values : Project|Organization|Public(Default).
     networkVisibilities:
       - Public
     # +optional The path to the schema definition file.
